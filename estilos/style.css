@@ -38,10 +38,19 @@ section#login{
     border-radius: 20px;
     padding: 10px;
 
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+
 }
 
 section#login > div#imagem{
-    background: #5f2c82 url(../imagens/fundo.jpg) no-repeat;
+    display: block;
+    background: #5f2c82 url(../imagens/fundo2.png) no-repeat;
     background-size: cover;
     height: 200px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
